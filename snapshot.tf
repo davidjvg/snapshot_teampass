@@ -1,5 +1,5 @@
 resource "azurerm_snapshot" "teampass_snapshot" {
-  name                = "Teampass_Snapshotsnapshot"
+  name                = "Teampass_Snapshot"
   location            = "North Europe"
   resource_group_name = "TeamPass_Resource_Group"
   create_option       = "Copy"
